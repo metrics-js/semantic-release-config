@@ -1,0 +1,49 @@
+{
+  "name": "@metrics/semantic-release-config",
+  "version": "1.0.10",
+  "description": "Shared semantic release config used in Metrics JS modules",
+  "exports": {
+    ".": {
+      "default": "./lib/config.js"
+    }
+  },
+  "type": "module",
+  "keywords": [
+    "semantic-release",
+    "semantic-release-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/metrics-js/semantic-release-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/metrics-js/semantic-release-config/issues"
+  },
+  "homepage": "https://github.com/metrics-js/semantic-release-config#readme",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf node_modules",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "devDependencies": {
+    "@eik/eslint-config": "1.0.23",
+    "@eik/prettier-config": "1.0.1",
+    "eslint": "9.39.1",
+    "prettier": "3.7.3",
+    "rimraf": "6.1.2",
+    "semantic-release": "25.0.2"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "13.0.1",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "12.0.2",
+    "@semantic-release/npm": "13.1.2",
+    "@semantic-release/release-notes-generator": "14.1.0"
+  }
+}
