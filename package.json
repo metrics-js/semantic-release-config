@@ -1,6 +1,6 @@
 {
   "name": "@metrics/semantic-release-config",
-  "version": "1.0.10",
+  "version": "1.0.0",
   "description": "Shared semantic release config used in Metrics JS modules",
   "exports": {
     ".": {

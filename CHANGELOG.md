@@ -1,3 +1,10 @@
+# 1.0.0 (2025-12-02)
+
+
+### Bug Fixes
+
+* initial version ([c04a18a](https://github.com/metrics-js/semantic-release-config/commit/c04a18a7334a085defeea0e6f6d680f0874191b7))
+
 ## [1.0.10](https://github.com/metrics-js/semantic-release-config/compare/v1.0.9...v1.0.10) (2025-12-02)
 
 
