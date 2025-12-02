@@ -1,6 +1,6 @@
-# @eik/semantic-release-config
+# @metrics/semantic-release-config
 
-This is a [semantic-release](https://github.com/semantic-release/semantic-release) config to publish Eik modules meant for internal use in the [metrics-js organisation](https://github.com/metrics-js).
+This is a [semantic-release](https://github.com/semantic-release/semantic-release) config to publish Metrics JS modules meant for internal use in the [metrics-js organisation](https://github.com/metrics-js).
 
 This configuration is not related to our [semantic release plugin](https://github.com/metrics-js/semantic-release#readme).
 
